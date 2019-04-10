@@ -1,10 +1,44 @@
 /*		selector {
 			property: value;
 		}*/
+		body {
+/*			background: pink;
+			border-color: purple;
+			border-width: 5px;
+			border-style: solid;*/
+
+			border: 5px solid purple;
+		}
+		/*width, color, style*/
 		h1 {
-			color:purple;
+			color:#0000FF;
+		}
+		/*rgba, a for the transparency, 0-1*/
+/*		li {
+			color:rgba(255,0,0,1);
+		}*/
+
+		h4 {
+			color: purple;
+			background: rgb(0,100,80);
+			background: no-repeat;
+		}
+		/*select single item with id*/
+		#special {
+			background: yellow;
+			color: blue;
+		}
+		/*use class to group items*/
+/*		.completed {
+			text-decoration: line-through;
+		}*/
+
+		/*Attribute Selector*/
+		input [type="checkbox"] {
+			color: blue;
 		}
 
-		li {
-			color:orange;
-		}
+/*
+1em = 16px
+px is relative value.
+*/
